@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Project</title>
+    </head>
+    <body>
+        <form action="test.py" method="post">
+            <div>
+                 <label >Username</label> 
+                 <br>
+                 <input type="text" required placeholder="أدخل اسم المستخدم" name="user" value="mohamed">
+            </div>
+            <hr>
+            <div>
+                 <label >Password</label>
+                 <br>
+                <input type="password" placeholder="أدخل كلمة السر الخاصة بحسابك" name="password">
+            </div>
+            <hr>
+            <div>
+                 <label >Mobile</label>
+                 <br>
+                 <input type="tel" placeholder="+20100 (234) 123" name="tel">
+            </div>
+            <hr>
+            <div>
+                <label >Email</label >
+                    <br>
+                <input type="email" required placeholder="أدخل بريدك الالكتروني" name="email">
+             </div>
+             <hr>
+             <div>
+                <label >Subject</label>
+                <br>
+                <input type="text" placeholder="يمكنك عدم ملأ هذه الخانة" name="Subject">
+            </div>
+            <hr>
+            <div>
+                <input  type="hidden" name="userid" value="123123123456456456789789789000">
+            </div>
+            <div>
+                <input type="reset" value="Empty Form">
+                <input type="submit" value="Send Data">
+            </div>
+        </form>
+    </body>
+</html>

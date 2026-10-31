@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>project</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" autofocus required minlength="5" maxlength="20">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" value="o@o.com" readonly >
+            </div>
+            <br>
+            <div>
+                <input 
+                type="hidden" 
+                name="token" 
+                value="b92f1fc2fce391ad7af633723afd3055" 
+                >
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Empty">
+                <input type="submit" value="send">
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label>skills</label>
+                </div>
+                <br>
+                <div>
+                    <input id="Planning" type="checkbox" name="skills" value="Planning" checked>
+                    <label for="Planning">Planning</label>
+                </div>
+                <br>
+                <div>
+                    <input id="Analysis" type="checkbox" name="skills" value="Anal">
+                    <label for="Analysis">Analysis</label>
+                </div>
+                <br>
+                <div>
+                    <input id="Logical-Thinking" type="checkbox" name="skills" value="Logical Thinking">
+                    <label for="Logical-Thinking">Logical Thinking</label>
+                </div>
+                <br>
+                <div>
+                    <input id="Advanced-Search" type="checkbox" name="skills" value="adv srch">
+                    <label for="Advanced-Search">Advanced Search</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label>job</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="Scrum-Master" name="job" value="Scrm Mr" checked>
+                    <label for="Scrum-Master">Scrum Master</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="Back-End-Developer" name="job" value="Bk end dev">
+                    <label for="Back-End-Developer">Back-End Developer</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="Front-End-Developer" name="job" value="frt end dev">
+                    <label for="Front-End-Developer">Front-End Developer</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="Project-Manager" name="job" value="prg mng">
+                    <label for="Project-Manager">Project Manager</label>
+                </div>
+                <br>
+                <div>
+                    <label for="language">Choose language:</label>
+                    <select name="pro lan" id="language">
+                            <optgroup label="Php">
+                                <option value="1">V5.0</option>
+                                <option value="2">V7.0</option>
+                                <option value="3">V8.0</option>
+                            </optgroup>
+                            <optgroup label="Python">
+                                <option value="4">V2.0</option>
+                                <option value="5">V3.0</option>
+                                <option value="6">V3.9</option>
+                            </optgroup>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <textarea name="brief"pla
+                     id="Programming-brief" cols="40" rows="10" placeholder="Write Here Why You Want To Learn Programming" >
+                    </textarea>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
